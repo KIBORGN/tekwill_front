@@ -1,46 +1,33 @@
-body {
-    font-family: 'Halvar Engschrift';
-
+.item {
+    padding: 8px 16px;
+    border: solid 1px black;
+    margin: 48px;
+    background: white;
+    position: sticky;
+    top:0
 }
 
-.gross1 {
-    border: solid 1px red;
+.item1 {
+    background-color: white;
 }
 
-div {
-
+.item2 {
+    background-color: red;
 }
 
-.gross2 {
-    margin-top: 10px;
-    border: dotted 3px black;
-    ;
-}
-.gross2:hover {
-    margin-top: 10px;
-    border: dotted 3px green;
-    ;
+.item3 {
+    background-color: black;
 }
 
-.gross3 {
-    margin-top: 10px;
-    border: double 10px orange;
+.item4 {
+    background-color: green;
 }
 
-#span2 {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 3rem;
-    padding: 0 50%;
+.item5 {
+    background-color: yellow;
 }
 
-.span1 {
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: 4rem;
-    padding: 0 50%;
-}
 
-.span1:first-child, .span1:last-child {
-    color: red;
+.screen {
+    height: 400vh;
 }

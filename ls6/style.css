@@ -1,0 +1,46 @@
+body {
+    font-family: 'Halvar Engschrift';
+
+}
+
+.gross1 {
+    border: solid 1px red;
+}
+
+div {
+
+}
+
+.gross2 {
+    margin-top: 10px;
+    border: dotted 3px black;
+    ;
+}
+.gross2:hover {
+    margin-top: 10px;
+    border: dotted 3px green;
+    ;
+}
+
+.gross3 {
+    margin-top: 10px;
+    border: double 10px orange;
+}
+
+#span2 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    padding: 0 50%;
+}
+
+.span1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+    padding: 0 50%;
+}
+
+.span1:first-child, .span1:last-child {
+    color: red;
+}
